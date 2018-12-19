@@ -1,0 +1,222 @@
+body
+{
+	font: normal 15px 'trebuchet ms', arial, sans-serif;
+	background: #F0EFE2 url(background.png) no-repeat;
+	background-size: cover;
+	color: #FFF;
+}
+
+p 
+{
+	padding: 0 0 20px 0;
+}
+
+h1, h2, h3, h4, h5, h6 
+{ 
+	font: normal 175% 'century gothic', arial, sans-serif;
+	color: #FFF;
+	margin: 0 0 15px 0;
+	padding: 15px 0 5px 0;
+}
+
+h1
+{
+	color: #000;
+}
+
+a, a:hover
+{ 
+	outline: none;
+	text-decoration: underline;
+	color: #FFF;
+}
+
+a:hover
+{ 
+	text-decoration: none;
+}
+
+ul
+{ 
+	margin: 2px 0 22px 17px;
+}
+
+ul li
+{ 
+	list-style-type: circle;
+	margin: 0 0 6px 0; 
+	padding: 0 0 4px 5px;
+}
+
+#main, #logo, #menubar, #site_content, #footer
+{ 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+#header
+{ 
+	background: transparent;
+	height: 150px;
+}
+
+#logo
+{ 
+	width: 825px;
+	position: relative;
+	height: 168px;
+}
+
+#logo #logo_text 
+{ 
+	position: absolute; 
+	top: 20px;
+	left: 0;
+}
+
+#logo h1, #logo h2
+{ 
+	font: normal 500% 'century gothic', arial, sans-serif;
+	border-bottom: 0;
+	text-transform: none;
+	margin: 0;
+}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
+{ 
+	padding: 15px 0 0 0;
+	color: #ED6F00;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+}
+
+#logo_text h1 a .logo_colour
+{ 
+	color: #FFF;
+}
+
+#logo_text h2
+{ 
+	font-size: 100%;
+	padding: 4px 0 0 0;
+	color: #FFF;
+}
+
+#menubar
+{ 
+	width: 900px;
+	height: 72px;
+	padding: 0;
+	background: transparent url(transparent_light.png) repeat;
+} 
+
+ul#menu, ul#menu li
+{ 
+	float: left;
+	margin: 0; 
+	padding: 0;
+}
+
+ul#menu li
+{ 
+	list-style: none;
+}
+
+ul#menu li a
+{ 
+	letter-spacing: 0.1em;
+	font: normal 169% arial, sans-serif;
+	display: block; 
+	float: left; 
+	height: 37px;
+	padding: 29px 26px 6px 26px;
+	text-align: center;
+	color: #FFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: transparent;
+} 
+
+ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
+{ 
+	color: #FFF;
+	background: transparent url(transparent.png) repeat;
+}
+
+#content
+{
+	width: 856px;
+	overflow: hidden;
+	margin: 0 auto 0 auto;
+	padding: 20px 24px 20px 20px;
+	background: transparent url(transparent_light.png) repeat;
+	text-align: left;
+}
+
+#content ul
+{ 
+	margin: 2px 0 22px 0px;
+}
+
+#content ul li
+{ 
+	list-style-type: none;
+	background: url(bullet.png) no-repeat;
+	margin: 0 0 6px 0; 
+	padding: 0 0 4px 25px;
+	line-height: 1.5em;
+}
+
+#footer
+{
+	width: 856px;
+	overflow: hidden;
+	margin: 0 auto 0 auto;
+	padding: 20px 24px 20px 20px;
+	text-align: left;
+}
+
+table
+{ 
+	margin: 10px 0 30px 0;
+}
+
+table tr th, table tr td
+{ 
+	background: #3B3B3B;
+	color: #FFF;
+	padding: 7px 4px;
+	text-align: left;
+}
+  
+table tr td
+{ 
+	background: #FFF;
+	color: #47433F;
+	border-top: 1px solid #FFF;
+}
+
+label 
+{
+	display: block; 
+	padding: 1ex; 
+}
+
+form {
+    padding: 20px;
+    border: 3px solid #838383;
+}
+
+input[type=submit] 
+{
+	height: 50px;
+	width: 200px;
+	padding:5px 15px; 
+	color:#FFF;
+	font-size: 20px;
+    background:#ED6F00; 
+    border:1 none;
+    border-color: #000;
+    cursor:pointer;
+    border-radius: 5px;
+}
